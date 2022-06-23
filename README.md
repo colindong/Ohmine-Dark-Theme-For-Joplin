@@ -24,6 +24,12 @@ Let's see what's OhmineDT brings you:
 
 ## Latest Released
 
+### OhmineDT-v3.1.87 updates ( 22-JUN-2022 tested on Joplin v2.8.8)
+
+- **Render Viewer:**
+    - Fix: text color is unreadable when using the inline todo plugin
+    - Fix: improve export html browser support
+    - 
 ### OhmineDT-v3.1.84 updates (  8-JUN-2022 tested on Joplin v2.8.8)
 
 - **Markdown Editor:**
