@@ -1,4 +1,4 @@
-/* OhmineDT v3.1.84 | userchrome.css | 
+/* OhmineDT v3.1.87 | userchrome.css | 
 /* CSS for: Markdown Editor | Joplin UI */
 
 /* By usual case, you would only to edit the source code within the root section to fulfill most of your personal needs */
@@ -1144,6 +1144,7 @@ i.fas.fa-caret-down {
 
 /* notebook panel: note count label ------------------------ */
 .rli-sideBar .note-count-label {
+  position: -webkit-sticky;
   position: sticky;
   right: 6px;
   font-size: 10px;
@@ -1158,7 +1159,7 @@ i.fas.fa-caret-down {
 }
 
 /* notebook panel: synchronize information text ------------ */
-.rli-sideBar > div:last-child > div > div {
+.rli-sideBar .sidebar > div:last-child > div > div {
   color: var(--np-sync-info-text-color) !important;
 }
 

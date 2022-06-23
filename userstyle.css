@@ -1,4 +1,4 @@
-/* OhmineDT v3.1.84 | userstyle.css */
+/* OhmineDT v3.1.87 | userstyle.css */
 /* CSS for: Render Viewer | Rich Text Editor | Print PDF | Export PDF | EXPORT HTML */
 
 /* By usual case, you would only to edit the source code within the root section to fulfill most of your personal needs */
@@ -998,7 +998,7 @@ body {
 }
 
 /* list: list > span --------------------------------------- */
-#rendered-md > ul li span,
+#rendered-md > ul li span:not(.inline-todo),
 #rendered-md > ol li span {
   color: var(--list-span-text-color);
 }
@@ -1622,6 +1622,7 @@ important::before {
   /* print ready: print exact color ------------------------ */
   #rendered-md * {
     -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   /* print ready: print pdf  */
